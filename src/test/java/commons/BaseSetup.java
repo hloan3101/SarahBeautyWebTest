@@ -3,24 +3,21 @@ package commons;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 public class BaseSetup {
 
-    private WebDriver driver;
+    public static WebDriver driver;
     private String webURL = "http://sarahbeauty.com/";
 
-    @BeforeClass
+
     public void initChromeDriver () throws InterruptedException {
         System.out.println("Launching Chrome browser...");
-
+        System.out.println("Launching Main Page...");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get(webURL);
         driver.manage().window().maximize();
-
+        System.out.println("Main Page opened...");
         Thread.sleep(2000);
     }
 
@@ -28,7 +25,7 @@ public class BaseSetup {
         return driver;
     }
 
-    @AfterClass
+//    @AfterClass
     public void tearDown() throws Exception {
         Thread.sleep(2000);
         driver.quit();
