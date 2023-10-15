@@ -10,7 +10,7 @@ import pages.SignInPage;
 
 public class VerifySignInTest extends BaseSetup {
 
-    public SignInPage signInPage;
+    private SignInPage signInPage;
     private ExcelHelper excelHelper;
 
     @BeforeClass
@@ -37,7 +37,7 @@ public class VerifySignInTest extends BaseSetup {
     }
 
     @DataProvider(name="testdata")
-    public Object[][] TestDataFeed() throws Exception {
+    private Object[][] TestDataFeed() throws Exception {
         excelHelper = new ExcelHelper();
         excelHelper.setExcelFile("src/test/java/resoures/TestData.xlsx",
                 "SignInTestData");

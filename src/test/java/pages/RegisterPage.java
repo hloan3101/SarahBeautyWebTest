@@ -1,6 +1,7 @@
 package pages;
 
 import commons.BaseSetup;
+import commons.MessageHelper;
 import commons.ValidateHelper;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -8,8 +9,6 @@ import org.testng.Assert;
 public class RegisterPage extends BaseSetup {
 
     private ValidateHelper validateHelper;
-    private final String errMessageRegister = "Register failed";
-
     private By firstNameInput = By.id("firstname");
     private By lastNameInput = By.id("lastname");
     private By emailInput = By.id("email");
@@ -30,7 +29,6 @@ public class RegisterPage extends BaseSetup {
 
         validateHelper.setText(firstNameInput, firstName);
         Thread.sleep(1000);
-        Thread.sleep(1000);
         validateHelper.setText(lastNameInput, lastName);
         Thread.sleep(1000);
         validateHelper.setText(emailInput, email);
@@ -43,6 +41,6 @@ public class RegisterPage extends BaseSetup {
     }
 
     public void verifyRegisterAccount (){
-        Assert.assertTrue(!validateHelper.checkFindElement(createAnAccountBtn), errMessageRegister);
+        Assert.assertTrue(!validateHelper.checkFindElement(createAnAccountBtn), MessageHelper.errRegisterMessage);
     }
 }

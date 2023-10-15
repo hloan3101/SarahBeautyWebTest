@@ -1,6 +1,7 @@
 package pages;
 
 import commons.BaseSetup;
+import commons.MessageHelper;
 import commons.ValidateHelper;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -21,19 +22,19 @@ public class MainPage extends BaseSetup {
 
     public SignInPage LaunchingSignInPage(){
 
-        System.out.println("Launching Sign In Page...");
+        System.out.println(MessageHelper.launchingSignInPageMessage);
         validateHelper.clickElement(signInLinkText);
-        System.out.println("Sign In Page opened");
+        System.out.println(MessageHelper.signInPageOpenedMessage);
         return new SignInPage();
     }
 
     public void SignOutAccount () throws InterruptedException {
 
         Thread.sleep(2000);
-        System.out.println("Sign Out Account...");
+        System.out.println(MessageHelper.signOutAccountMessage);
 
-        Assert.assertTrue(validateHelper.checkFindElement(customerMenuBtn), "Customer menu button is not displayed");
-        Assert.assertTrue(validateHelper.checkFindElement(signOutLink), "Customer menu is not display");
+        Assert.assertTrue(validateHelper.checkFindElement(customerMenuBtn), MessageHelper.errCustomerMenuMessage);
+        Assert.assertTrue(validateHelper.checkFindElement(signOutLink), MessageHelper.errSignOutLinkMessage);
 
         Thread.sleep(2000);
         validateHelper.clickElement(customerMenuBtn);
@@ -41,6 +42,6 @@ public class MainPage extends BaseSetup {
         Thread.sleep(3000);
         validateHelper.clickElement(signOutLink);
         Thread.sleep(8000);
-        Assert.assertTrue(validateHelper.checkFindElement(signInLinkText), "Sign out failed");
+        Assert.assertTrue(validateHelper.checkFindElement(signInLinkText), MessageHelper.errSignOutMessage);
     }
 }
