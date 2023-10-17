@@ -5,9 +5,15 @@
         <classes>
             <class name="testcases.VerifySignInTest">
                 <methods>
-                    <include name="SignInSuccess"/>
+                    <include name="verifySignInSuccess"/>
                 </methods>
             </class>
+            <class name="testcases.VerifySearchProductTest">
+                <methods>
+                    <include name="verifySearchProductSuccess"/>
+                </methods>
+            </class>
+            <class name="testcases.VerifyViewProductDetailsTest"></class>
             <class name="testcases.VerifySignOutTest">
                 <methods>
                     <include name="SignOut"/>

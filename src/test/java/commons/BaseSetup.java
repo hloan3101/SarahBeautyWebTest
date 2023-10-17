@@ -3,21 +3,22 @@ package commons;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import ultilites.Log;
 
 public class BaseSetup {
 
     public static WebDriver driver;
-    private String webURL = "http://sarahbeauty.com/";
+    private final String webUrl = "http://sarahbeauty.com/";
 
 
     public void initChromeDriver () throws InterruptedException {
-        System.out.println("Launching Chrome browser...");
-        System.out.println("Launching Main Page...");
+        Log.info(MessageHelper.setUpChromeBrowserMessage);
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.get(webURL);
+        driver.get(webUrl);
+
         driver.manage().window().maximize();
-        System.out.println("Main Page opened...");
+        Log.info(MessageHelper.setUpHomePagerMessage);
         Thread.sleep(2000);
     }
 
