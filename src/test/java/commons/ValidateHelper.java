@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import ultilites.Log;
 
 import java.time.Duration;
 
@@ -30,6 +31,17 @@ public class ValidateHelper {
     public String getText (By element){
         wait.until(ExpectedConditions.elementToBeClickable(element));
         return driver.findElement(element).getText();
+    }
+
+    public String getValue (By element){
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        return driver.findElement(element).getAttribute("value");
+    }
+
+    public void pressEnterKey(By element){
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        clickElement(element);
+        driver.findElement(element).sendKeys(Keys.ENTER);
     }
 
     //    Click a element
@@ -69,6 +81,7 @@ public class ValidateHelper {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
             wait.until(expectation);
         } catch (Throwable error) {
+            Log.error(MessageHelper.errTimeOutMessage);
             Assert.fail("Timeout waiting for Page Load Request to complete.");
         }
     }
