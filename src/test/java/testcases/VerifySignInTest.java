@@ -2,42 +2,46 @@ package testcases;
 
 import commons.BaseSetup;
 import commons.ExcelHelper;
-import org.testng.annotations.BeforeClass;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.MainPage;
+import pages.HomePage;
 import pages.SignInPage;
+import ultilites.TestListener;
 
+@Listeners(TestListener.class)
 public class VerifySignInTest extends BaseSetup {
 
-    public SignInPage signInPage;
+    private SignInPage signInPage;
     private ExcelHelper excelHelper;
 
-    @BeforeClass
     private void setUp () throws InterruptedException {
         initChromeDriver();
     }
 
-    @Test(dataProvider="testdata")
-    public void SignIn (String email, String password) throws Exception {
 
-        MainPage mainPage = new MainPage();
-        signInPage = mainPage.LaunchingSignInPage();
+    @Test(dataProvider="testdata", description = "Verify that the sign in account when take the data from excel file.")
+    public void SignIn (String email, String password) throws Exception {
+        setUp();
+        HomePage homePage = new HomePage();
+        signInPage = homePage.setupSignInPage();
         signInPage.signIn(email, password);
-        signInPage.verifySignIn();
+        Assert.assertTrue(signInPage.verifySignIn());
+        tearDown();
     }
 
-    @Test
-    public void SignInSuccess () throws Exception {
-
-        MainPage mainPage = new MainPage();
-        signInPage = mainPage.LaunchingSignInPage();
+    @Test (description = "Verify that the sign in account  is success with correct email and password")
+    public void verifySignInSuccess() throws Exception {
+        setUp();
+        HomePage homePage = new HomePage();
+        signInPage = homePage.setupSignInPage();
         signInPage.signIn("hloan975@gmail.com", "123456aA");
-        signInPage.verifySignIn();
+        Assert.assertTrue(signInPage.verifySignIn());
     }
 
     @DataProvider(name="testdata")
-    public Object[][] TestDataFeed() throws Exception {
+    private Object[][] TestDataFeed() throws Exception {
         excelHelper = new ExcelHelper();
         excelHelper.setExcelFile("src/test/java/resoures/TestData.xlsx",
                 "SignInTestData");
@@ -54,4 +58,5 @@ public class VerifySignInTest extends BaseSetup {
 
         return credentials;
     }
+
 }

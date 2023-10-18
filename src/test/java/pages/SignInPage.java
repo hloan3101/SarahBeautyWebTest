@@ -1,28 +1,32 @@
 package pages;
 
 import commons.BaseSetup;
+import commons.MessageHelper;
 import commons.ValidateHelper;
 import org.openqa.selenium.By;
-import org.testng.Assert;
+import ultilites.Log;
 
 public class SignInPage extends BaseSetup {
 
-    private final String checkLoadedSignInPage = "Sign In";
-    private final String errMessageSignIn = "Sign In failed";
+
     private ValidateHelper validateHelper;
     private By emailInput = By.id("email");
     private By passwordInput = By.id("pass");
     private By showPasswordCheckBox = By.id("show-password");
     private By signInBtn = By.xpath("//*[@id=\"send2\"]");
 
-    private By errorMessageSignInText = By.xpath("//*[@id=\"maincontent\"]/div[2]/div[2]/div/div/div");
+    private By errMessageSignInText = By.xpath("//*[@id=\"maincontent\"]/div[2]/div[2]/div/div/div");
     private By incorrectCaptcharText = By.xpath("//*[@id=\"maincontent\"]/div[2]/div[2]/div");
+
+    private By errEmail = By.id("email-error");
+    private By errPassword = By.id("pass-error");
+    private By errMessage = By.xpath("//*[@id=\"maincontent\"]/div[2]/div[2]/div/div/div");
 
     public SignInPage() {
         validateHelper = new ValidateHelper(driver);
     }
 
-    public void   signIn (String emailValue, String passwordValue) throws InterruptedException {
+    public void signIn (String emailValue, String passwordValue) throws InterruptedException {
         validateHelper.waitForPageLoaded();
 
         validateHelper.setText(emailInput, emailValue);
@@ -33,9 +37,23 @@ public class SignInPage extends BaseSetup {
         validateHelper.clickElement(signInBtn);
     }
 
-    public void verifySignIn (){
+    public boolean verifySignIn (){
 //        Assert.assertTrue(!validateHelper.checkDisplayElement(errorMessageSignInText), errMessageSignIn);
 //        Assert.assertTrue(!validateHelper.checkDisplayElement(incorrectCaptcharText), errMessageSignIn);
-            Assert.assertTrue(!validateHelper.checkFindElement(signInBtn),errMessageSignIn );
+        if (validateHelper.checkFindElement(signInBtn)){
+            Log.error(MessageHelper.errMessageSignIn);
+            if (validateHelper.checkFindElement(errMessage)){
+                Log.error(validateHelper.getText(errMessage));
+            }
+            if (validateHelper.checkFindElement(errEmail)){
+                Log.error(validateHelper.getText(errEmail));
+            }
+            if (validateHelper.checkFindElement(errPassword)){
+                Log.error(validateHelper.getText(errPassword));
+            }
+            return false;
+        }
+
+        return true;
     }
 }

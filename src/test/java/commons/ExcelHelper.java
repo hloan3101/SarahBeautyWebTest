@@ -1,6 +1,7 @@
 package commons;
 
 import org.apache.poi.ss.usermodel.*;
+import ultilites.Log;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -26,7 +27,7 @@ public class ExcelHelper {
 
             if (!f.exists()) {
                 f.createNewFile();
-                System.out.println("File doesn't exist, so created!");
+                Log.error(MessageHelper.errOpenFileExcelMessage);
             }
 
             fis = new FileInputStream(ExcelPath);
@@ -45,7 +46,7 @@ public class ExcelHelper {
             });
 
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            Log.error(e.getMessage());
         }
     }
 
@@ -86,6 +87,7 @@ public class ExcelHelper {
     }
 
     public int getRowCount(int sheetIndex) {
+        Log.info( wb.getSheetAt(sheetIndex).getLastRowNum());
         return wb.getSheetAt(sheetIndex).getLastRowNum();
     }
 }
