@@ -1,0 +1,714 @@
+[INFO ] 18-10-2023 15:10:27 [main] Log - ----Test Suite FirstTest started----
+[INFO ] 18-10-2023 15:10:27 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:10:31 [main] Log - Home Page
+[INFO ] 18-10-2023 15:10:34 [main] Log - Register Account Page
+[INFO ] 18-10-2023 15:10:34 [main] Log - ----Running Test Method verifyRegisterAccountSuccess----
+[ERROR] 18-10-2023 15:10:55 [main] Log - Register failed
+[INFO ] 18-10-2023 15:10:55 [main] Log - Executed verifyRegisterAccountSuccess test failed
+[INFO ] 18-10-2023 15:10:55 [main] Log - ----Running Test Method verifySearchProduct1Success----
+[INFO ] 18-10-2023 15:10:58 [main] Log - Search result: 5 Items
+[INFO ] 18-10-2023 15:10:58 [main] Log - Executed verifySearchProduct1Success test successfully
+[INFO ] 18-10-2023 15:10:58 [main] Log - ----Running Test Method verifyViewProductDetails1----
+[INFO ] 18-10-2023 15:11:08 [main] Log - Product name: POND'S Vitamin Micellar Water Brightening Rose with 5 Vitamins, French Roses for a Bright Glow 100ml
+[INFO ] 18-10-2023 15:11:13 [main] Log - Executed verifyViewProductDetails1 test successfully
+[INFO ] 18-10-2023 15:11:13 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 15:11:13 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 15:11:13 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 15:11:13 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 15:11:13 [main] Log - ----Running Test Method verifyAddProduct1ToCart----
+[INFO ] 18-10-2023 15:11:13 [main] Log - Executed verifyAddProduct1ToCart test failed
+[INFO ] 18-10-2023 15:11:13 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 15:11:15 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 15:11:30 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 15:11:30 [main] Log - ----Test Suite FirstTest ending----
+
+
+
+[INFO ] 18-10-2023 15:11:30 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:11:30 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:11:30 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:11:32 [main] Log - Home Page
+[INFO ] 18-10-2023 15:11:36 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:11:42 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 15:11:42 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 15:11:45 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 15:11:45 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 15:11:45 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 15:11:54 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 15:11:59 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 15:11:59 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 15:11:59 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 15:11:59 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 15:11:59 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 15:11:59 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 15:11:59 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 15:11:59 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 15:12:01 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 15:12:16 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 15:12:16 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 15:16:26 [main] Log - ----Test Suite SarahBeautyWebTest started----
+[INFO ] 18-10-2023 15:16:26 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:16:30 [main] Log - Home Page
+[INFO ] 18-10-2023 15:16:33 [main] Log - Register Account Page
+[INFO ] 18-10-2023 15:16:33 [main] Log - ----Running Test Method verifyRegisterAccountSuccess----
+[ERROR] 18-10-2023 15:16:54 [main] Log - Register failed
+[INFO ] 18-10-2023 15:16:54 [main] Log - Executed verifyRegisterAccountSuccess test failed
+[INFO ] 18-10-2023 15:16:54 [main] Log - ----Test Suite SarahBeautyWebTest ending----
+
+
+
+[INFO ] 18-10-2023 15:17:56 [main] Log - ----Test Suite SarahBeautyWebTest started----
+[INFO ] 18-10-2023 15:17:56 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:17:59 [main] Log - Home Page
+[INFO ] 18-10-2023 15:18:02 [main] Log - Register Account Page
+[INFO ] 18-10-2023 15:18:03 [main] Log - ----Running Test Method verifyRegisterAccountSuccess----
+[ERROR] 18-10-2023 15:18:25 [main] Log - Register failed
+[INFO ] 18-10-2023 15:18:25 [main] Log - Executed verifyRegisterAccountSuccess test failed
+[INFO ] 18-10-2023 15:18:25 [main] Log - ----Test Suite SarahBeautyWebTest ending----
+
+
+
+[INFO ] 18-10-2023 15:19:29 [main] Log - ----Test Suite SarahBeautyWebTest started----
+[INFO ] 18-10-2023 15:19:29 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:19:33 [main] Log - Home Page
+[INFO ] 18-10-2023 15:19:36 [main] Log - Register Account Page
+[INFO ] 18-10-2023 15:19:36 [main] Log - ----Running Test Method verifyRegisterAccountSuccess----
+[INFO ] 18-10-2023 15:19:59 [main] Log - true
+[ERROR] 18-10-2023 15:19:59 [main] Log - Register failed
+[INFO ] 18-10-2023 15:19:59 [main] Log - Executed verifyRegisterAccountSuccess test failed
+[INFO ] 18-10-2023 15:19:59 [main] Log - ----Test Suite SarahBeautyWebTest ending----
+
+
+
+[INFO ] 18-10-2023 15:24:30 [main] Log - ----Test Suite SarahBeautyWebTest started----
+[INFO ] 18-10-2023 15:24:30 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:24:34 [main] Log - Home Page
+[INFO ] 18-10-2023 15:24:38 [main] Log - Register Account Page
+[INFO ] 18-10-2023 15:24:38 [main] Log - ----Running Test Method verifyRegisterAccountSuccess----
+[INFO ] 18-10-2023 15:25:01 [main] Log - true
+[ERROR] 18-10-2023 15:25:01 [main] Log - Register failed
+[INFO ] 18-10-2023 15:25:01 [main] Log - Executed verifyRegisterAccountSuccess test failed
+[INFO ] 18-10-2023 15:25:01 [main] Log - ----Test Suite SarahBeautyWebTest ending----
+
+
+
+[INFO ] 18-10-2023 15:31:16 [main] Log - ----Test Suite SarahBeautyWebTest started----
+[INFO ] 18-10-2023 15:31:16 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:31:20 [main] Log - Home Page
+[INFO ] 18-10-2023 15:31:24 [main] Log - Register Account Page
+[INFO ] 18-10-2023 15:31:24 [main] Log - ----Running Test Method verifyRegisterAccountSuccess----
+[INFO ] 18-10-2023 15:31:47 [main] Log - Thank you for registering with Sarah.
+[INFO ] 18-10-2023 15:31:47 [main] Log - Executed verifyRegisterAccountSuccess test successfully
+[INFO ] 18-10-2023 15:31:47 [main] Log - ----Test Suite SarahBeautyWebTest ending----
+
+
+
+[INFO ] 18-10-2023 15:39:23 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:39:23 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:39:23 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:39:27 [main] Log - Home Page
+[INFO ] 18-10-2023 15:39:30 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:40:06 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:40:07 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:40:07 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:40:10 [main] Log - Home Page
+[INFO ] 18-10-2023 15:40:14 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:40:20 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 15:40:20 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 15:40:23 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 15:40:23 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 15:40:23 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 15:40:32 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 15:40:37 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 15:40:37 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 15:40:37 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 15:40:37 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 15:40:37 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 15:40:37 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 15:40:37 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 15:40:37 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 15:40:39 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 15:40:53 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 15:40:53 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 15:41:00 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:41:00 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:41:00 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:41:03 [main] Log - Home Page
+[INFO ] 18-10-2023 15:41:07 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:41:12 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 15:41:12 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 15:41:15 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 15:41:15 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 15:41:15 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 15:41:24 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 15:41:29 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 15:41:29 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 15:41:29 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 15:41:29 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 15:41:29 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 15:41:29 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 15:41:29 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 15:41:29 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 15:41:31 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 15:41:46 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 15:41:46 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 15:43:24 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:43:24 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:43:24 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:43:28 [main] Log - Home Page
+[INFO ] 18-10-2023 15:43:32 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:43:38 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 15:43:38 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 15:43:41 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 15:43:41 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 15:43:41 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 15:43:50 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 15:43:55 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 15:43:55 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 15:43:55 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 15:43:55 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 15:43:55 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 15:43:55 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 15:43:55 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 15:43:55 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 15:43:57 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 15:44:12 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 15:44:12 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 15:45:24 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:45:24 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:45:24 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:45:27 [main] Log - Home Page
+[INFO ] 18-10-2023 15:45:30 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:45:36 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 15:45:36 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 15:45:39 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 15:45:39 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 15:45:39 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 15:45:48 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 15:45:53 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 15:45:53 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 15:45:53 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 15:45:53 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 15:45:53 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 15:45:53 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 15:45:53 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 15:45:53 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 15:45:55 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 15:46:09 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 15:46:09 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 15:46:21 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:46:21 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:46:21 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:46:24 [main] Log - Home Page
+[INFO ] 18-10-2023 15:46:27 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:46:33 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 15:46:33 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 15:46:36 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 15:46:36 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 15:46:36 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 15:46:45 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 15:46:50 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 15:46:50 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 15:46:50 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 15:46:50 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 15:46:50 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 15:46:50 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 15:46:50 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 15:46:50 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 15:46:52 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 15:47:07 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 15:47:07 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 15:50:26 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:50:26 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:50:26 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:50:29 [main] Log - Home Page
+[INFO ] 18-10-2023 15:50:32 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:50:37 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 15:50:37 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 15:50:41 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 15:50:41 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 15:50:41 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 15:50:49 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 15:50:55 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 15:50:55 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 15:50:55 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 15:50:55 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 15:50:57 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 15:51:11 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 15:51:11 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 15:52:51 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:52:51 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:52:51 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:52:55 [main] Log - Home Page
+[INFO ] 18-10-2023 15:52:58 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:53:03 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 15:53:03 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 15:53:06 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 15:53:06 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 15:53:06 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 15:53:15 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 15:53:20 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 15:53:20 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 15:53:20 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 15:53:20 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 15:55:05 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:55:05 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:55:05 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:55:09 [main] Log - Home Page
+[INFO ] 18-10-2023 15:55:12 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:55:18 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 15:55:18 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 15:55:21 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 15:55:21 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 15:55:21 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 15:55:30 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 15:55:35 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 15:55:35 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 15:55:35 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 15:55:35 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 15:57:37 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 15:57:38 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 15:57:38 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 15:57:41 [main] Log - Home Page
+[INFO ] 18-10-2023 15:57:44 [main] Log - Sign In Page
+[INFO ] 18-10-2023 15:57:49 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 15:57:49 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 15:57:53 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 15:57:53 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 15:57:53 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 15:58:01 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 15:58:06 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 15:58:06 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 15:58:06 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 15:58:06 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 16:00:10 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 16:00:10 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 16:00:10 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 16:00:13 [main] Log - Home Page
+[INFO ] 18-10-2023 16:00:17 [main] Log - Sign In Page
+[INFO ] 18-10-2023 16:00:22 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 16:00:22 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 16:00:25 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 16:00:25 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 16:00:25 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 16:00:34 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 16:00:39 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 16:00:39 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 16:00:39 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 16:00:39 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 16:01:38 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 16:01:38 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 16:01:38 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 16:01:42 [main] Log - Home Page
+[INFO ] 18-10-2023 16:01:45 [main] Log - Sign In Page
+[INFO ] 18-10-2023 16:01:50 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 16:01:50 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 16:01:53 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 16:01:53 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 16:01:53 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 16:02:02 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 16:02:07 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 16:02:07 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 16:02:07 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 16:02:07 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 16:07:56 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 16:07:56 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 16:07:56 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 16:08:00 [main] Log - Home Page
+[INFO ] 18-10-2023 16:08:03 [main] Log - Sign In Page
+[INFO ] 18-10-2023 16:08:08 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 16:08:08 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 16:08:12 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 16:08:12 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 16:08:12 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 16:08:20 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 16:08:26 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 16:08:26 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 16:08:31 [main] Log - Add product to cart success
+[INFO ] 18-10-2023 16:08:31 [main] Log - Executed verifyAddProduct2ToCart test successfully
+[INFO ] 18-10-2023 16:08:31 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 16:12:48 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 16:12:48 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 16:12:48 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 16:12:52 [main] Log - Home Page
+[INFO ] 18-10-2023 16:12:55 [main] Log - Sign In Page
+[INFO ] 18-10-2023 16:13:01 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 16:13:01 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 16:13:04 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 16:13:04 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 16:13:04 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 16:13:13 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 16:13:14 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 16:13:18 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 16:13:18 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 16:13:18 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 16:13:18 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 16:13:20 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 16:13:34 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 16:13:34 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 16:14:23 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 16:14:24 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 16:14:24 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 16:14:27 [main] Log - Home Page
+[INFO ] 18-10-2023 16:14:30 [main] Log - Sign In Page
+[INFO ] 18-10-2023 16:15:30 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 16:15:30 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 16:15:51 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 16:15:51 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 16:15:51 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 16:15:59 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 16:16:00 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 16:16:05 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 16:16:05 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 16:16:05 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 16:16:05 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 16:16:07 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 16:16:22 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 16:16:22 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 16:17:07 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 16:17:07 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 16:17:07 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 16:17:11 [main] Log - Home Page
+[INFO ] 18-10-2023 16:17:19 [main] Log - Sign In Page
+[INFO ] 18-10-2023 16:17:24 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 16:17:24 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 16:17:27 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 16:17:27 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 16:17:27 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 16:17:36 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 16:17:37 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 16:17:41 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 16:17:41 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 16:17:48 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 16:17:48 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 16:17:55 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 16:17:55 [main] Log - ----Running Test Method verifyAddProduct1ToCart----
+[ERROR] 18-10-2023 16:18:03 [main] Log - Add product to cart failed
+[INFO ] 18-10-2023 16:18:03 [main] Log - Executed verifyAddProduct1ToCart test failed
+[INFO ] 18-10-2023 16:18:03 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 16:18:05 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 16:18:19 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 16:18:19 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 16:46:39 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 16:46:39 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 16:46:39 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 16:46:43 [main] Log - Home Page
+[INFO ] 18-10-2023 16:46:48 [main] Log - Sign In Page
+[INFO ] 18-10-2023 16:46:54 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 16:46:54 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 16:46:57 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 16:46:57 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 16:46:57 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 16:47:06 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 16:47:07 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 16:47:11 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 16:47:11 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 16:47:18 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 16:47:18 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 16:47:25 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 16:47:25 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 16:47:29 [main] Log - Add product to cart success
+[INFO ] 18-10-2023 16:47:29 [main] Log - Executed verifyAddProduct2ToCart test successfully
+[INFO ] 18-10-2023 16:47:29 [main] Log - ----Running Test Method SignOut----
+[INFO ] 18-10-2023 16:47:31 [main] Log - Sign Out Account...
+[INFO ] 18-10-2023 16:47:46 [main] Log - Executed SignOut test successfully
+[INFO ] 18-10-2023 16:47:46 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 16:51:26 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 16:51:27 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 16:51:27 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 16:51:30 [main] Log - Home Page
+[INFO ] 18-10-2023 16:51:33 [main] Log - Sign In Page
+[INFO ] 18-10-2023 16:51:39 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 16:51:39 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 16:51:42 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 16:51:42 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 16:51:42 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 16:51:51 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 16:51:52 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 16:51:56 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 16:51:56 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 16:52:02 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 16:52:02 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 16:52:10 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 16:52:10 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 16:52:14 [main] Log - Add product to cart success
+[INFO ] 18-10-2023 16:52:14 [main] Log - Executed verifyAddProduct2ToCart test successfully
+[INFO ] 18-10-2023 16:52:14 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 16:55:40 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 16:55:40 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 16:55:40 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 16:55:44 [main] Log - Home Page
+[INFO ] 18-10-2023 16:55:47 [main] Log - Sign In Page
+[INFO ] 18-10-2023 16:55:53 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 16:55:53 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 16:55:56 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 16:55:56 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 16:55:56 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 16:56:05 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 16:56:06 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 16:56:10 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 16:56:10 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 16:56:11 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 16:56:11 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 16:56:18 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 16:56:18 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 16:56:23 [main] Log - Add product to cart success
+[INFO ] 18-10-2023 16:56:23 [main] Log - Executed verifyAddProduct2ToCart test successfully
+[INFO ] 18-10-2023 16:56:23 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 16:57:50 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 16:57:50 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 16:57:50 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 16:57:54 [main] Log - Home Page
+[INFO ] 18-10-2023 16:57:57 [main] Log - Sign In Page
+[INFO ] 18-10-2023 16:58:02 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 16:58:02 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 16:58:05 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 16:58:05 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 16:58:05 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 16:58:14 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 16:58:15 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 16:58:19 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 16:58:19 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 16:58:21 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 16:58:21 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 16:58:28 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 16:58:28 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 16:58:32 [main] Log - Add product to cart success
+[INFO ] 18-10-2023 16:58:32 [main] Log - Executed verifyAddProduct2ToCart test successfully
+[INFO ] 18-10-2023 16:58:32 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 17:00:53 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 17:00:53 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 17:00:53 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 17:00:57 [main] Log - Home Page
+[INFO ] 18-10-2023 17:01:00 [main] Log - Sign In Page
+[INFO ] 18-10-2023 17:01:05 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 17:01:05 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 17:01:09 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 17:01:09 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 17:01:09 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 17:01:18 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 17:01:19 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 17:01:23 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 17:01:23 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 17:01:24 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 17:01:24 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 17:01:26 [main] Log - Quantity: 1
+[INFO ] 18-10-2023 17:01:26 [main] Log - Executed verifyReduceQuantityProduct test successfully
+[INFO ] 18-10-2023 17:01:26 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 17:01:34 [main] Log - Executed verifyAddProduct2ToCart test failed
+[INFO ] 18-10-2023 17:01:34 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 17:03:45 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 17:03:45 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 17:03:45 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 17:03:48 [main] Log - Home Page
+[INFO ] 18-10-2023 17:03:51 [main] Log - Sign In Page
+[INFO ] 18-10-2023 17:03:56 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 17:03:56 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 17:03:59 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 17:03:59 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 17:03:59 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 17:04:08 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 17:04:09 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 17:04:13 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 17:04:13 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 17:04:14 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 17:04:14 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 17:04:17 [main] Log - Quantity: 1
+[INFO ] 18-10-2023 17:04:17 [main] Log - Executed verifyReduceQuantityProduct test successfully
+[INFO ] 18-10-2023 17:04:17 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 17:04:21 [main] Log - Add product to cart success
+[INFO ] 18-10-2023 17:04:21 [main] Log - Executed verifyAddProduct2ToCart test successfully
+[INFO ] 18-10-2023 17:04:21 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 17:05:12 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 17:05:12 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 17:05:12 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 17:05:15 [main] Log - Home Page
+[INFO ] 18-10-2023 17:05:18 [main] Log - Sign In Page
+[INFO ] 18-10-2023 17:05:23 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 17:05:23 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 17:05:27 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 17:05:27 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 17:05:27 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 17:05:35 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 17:05:36 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 17:05:40 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 17:05:40 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 17:05:42 [main] Log - Quantity: 2
+[INFO ] 18-10-2023 17:05:42 [main] Log - Executed verifyIncreaseQuantityProduct test successfully
+[INFO ] 18-10-2023 17:05:42 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 17:05:44 [main] Log - Quantity: 1
+[INFO ] 18-10-2023 17:05:44 [main] Log - Executed verifyReduceQuantityProduct test successfully
+[INFO ] 18-10-2023 17:05:44 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 17:05:48 [main] Log - Add product to cart success
+[INFO ] 18-10-2023 17:05:48 [main] Log - Executed verifyAddProduct2ToCart test successfully
+[INFO ] 18-10-2023 17:05:48 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 17:09:49 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 17:09:49 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 17:09:49 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 17:09:52 [main] Log - Home Page
+[INFO ] 18-10-2023 17:09:56 [main] Log - Sign In Page
+[INFO ] 18-10-2023 17:10:01 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 17:10:01 [main] Log - ----Running Test Method verifySearchProduct2Success----
+[INFO ] 18-10-2023 17:10:04 [main] Log - Product Page
+[INFO ] 18-10-2023 17:10:04 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 17:10:04 [main] Log - Executed verifySearchProduct2Success test successfully
+[INFO ] 18-10-2023 17:10:04 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 17:10:13 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 17:10:14 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 17:10:18 [main] Log - Executed verifyViewProductDetails2 test successfully
+[INFO ] 18-10-2023 17:10:18 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 17:10:20 [main] Log - Quantity: 2
+[INFO ] 18-10-2023 17:10:20 [main] Log - Executed verifyIncreaseQuantityProduct test successfully
+[INFO ] 18-10-2023 17:10:20 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 17:10:22 [main] Log - Quantity: 1
+[INFO ] 18-10-2023 17:10:22 [main] Log - Executed verifyReduceQuantityProduct test successfully
+[INFO ] 18-10-2023 17:10:22 [main] Log - ----Running Test Method verifyAddProduct1ToCart----
+[ERROR] 18-10-2023 17:10:26 [main] Log - Add product to cart failed
+[INFO ] 18-10-2023 17:10:26 [main] Log - Executed verifyAddProduct1ToCart test failed
+[INFO ] 18-10-2023 17:10:26 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 17:11:58 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 17:11:58 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 17:11:58 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 17:12:02 [main] Log - Home Page
+[INFO ] 18-10-2023 17:12:05 [main] Log - Sign In Page
+[INFO ] 18-10-2023 17:12:10 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 17:12:10 [main] Log - ----Running Test Method verifySearchProduct1Success----
+[INFO ] 18-10-2023 17:12:13 [main] Log - Product Page
+[INFO ] 18-10-2023 17:12:14 [main] Log - Search result: 5 Items
+[INFO ] 18-10-2023 17:12:14 [main] Log - Executed verifySearchProduct1Success test successfully
+[INFO ] 18-10-2023 17:12:14 [main] Log - ----Running Test Method verifyViewProductDetails2----
+[INFO ] 18-10-2023 17:12:27 [main] Log - Executed verifyViewProductDetails2 test failed
+[INFO ] 18-10-2023 17:12:27 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 17:12:33 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 17:12:33 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 17:12:41 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 17:12:41 [main] Log - ----Running Test Method verifyAddProduct1ToCart----
+[INFO ] 18-10-2023 17:12:48 [main] Log - Executed verifyAddProduct1ToCart test failed
+[INFO ] 18-10-2023 17:12:48 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 17:14:51 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 17:14:51 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 17:14:51 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 17:14:54 [main] Log - Home Page
+[INFO ] 18-10-2023 17:14:57 [main] Log - Sign In Page
+[INFO ] 18-10-2023 17:15:02 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 17:15:02 [main] Log - ----Running Test Method verifySearchProduct1Success----
+[INFO ] 18-10-2023 17:15:05 [main] Log - Product Page
+[INFO ] 18-10-2023 17:15:06 [main] Log - Search result: 5 Items
+[INFO ] 18-10-2023 17:15:06 [main] Log - Executed verifySearchProduct1Success test successfully
+[INFO ] 18-10-2023 17:15:06 [main] Log - ----Running Test Method verifyViewProductDetails1----
+[INFO ] 18-10-2023 17:15:15 [main] Log - Product name: POND'S Vitamin Micellar Water Brightening Rose with 5 Vitamins, French Roses for a Bright Glow 100ml
+[INFO ] 18-10-2023 17:15:16 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 17:15:20 [main] Log - Executed verifyViewProductDetails1 test successfully
+[INFO ] 18-10-2023 17:15:20 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 17:15:26 [main] Log - Executed verifyIncreaseQuantityProduct test failed
+[INFO ] 18-10-2023 17:15:26 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 17:15:34 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 18-10-2023 17:15:34 [main] Log - ----Running Test Method verifyAddProduct1ToCart----
+[INFO ] 18-10-2023 17:15:38 [main] Log - Add product to cart success
+[INFO ] 18-10-2023 17:15:38 [main] Log - Executed verifyAddProduct1ToCart test successfully
+[INFO ] 18-10-2023 17:15:38 [main] Log - ----Test Suite SecondTest ending----
+
+
+
+[INFO ] 18-10-2023 17:20:26 [main] Log - ----Test Suite SecondTest started----
+[INFO ] 18-10-2023 17:20:26 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 18-10-2023 17:20:26 [main] Log - Setup Chrome Browser
+[INFO ] 18-10-2023 17:20:30 [main] Log - Home Page
+[INFO ] 18-10-2023 17:20:33 [main] Log - Sign In Page
+[INFO ] 18-10-2023 17:20:39 [main] Log - Executed verifySignInSuccess test successfully
+[INFO ] 18-10-2023 17:20:39 [main] Log - ----Running Test Method verifySearchProductSuccess----
+[INFO ] 18-10-2023 17:20:42 [main] Log - Product Page
+[INFO ] 18-10-2023 17:20:42 [main] Log - Search result: 2 Items
+[INFO ] 18-10-2023 17:20:42 [main] Log - Executed verifySearchProductSuccess test successfully
+[INFO ] 18-10-2023 17:20:42 [main] Log - ----Running Test Method verifyViewProductDetails----
+[INFO ] 18-10-2023 17:20:51 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 18-10-2023 17:20:52 [main] Log - View Product Details Page
+[INFO ] 18-10-2023 17:20:56 [main] Log - Executed verifyViewProductDetails test successfully
+[INFO ] 18-10-2023 17:20:56 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 18-10-2023 17:20:58 [main] Log - Quantity: 2
+[INFO ] 18-10-2023 17:20:58 [main] Log - Executed verifyIncreaseQuantityProduct test successfully
+[INFO ] 18-10-2023 17:20:58 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 18-10-2023 17:21:00 [main] Log - Quantity: 1
+[INFO ] 18-10-2023 17:21:00 [main] Log - Executed verifyReduceQuantityProduct test successfully
+[INFO ] 18-10-2023 17:21:00 [main] Log - ----Running Test Method verifyAddProduct2ToCart----
+[INFO ] 18-10-2023 17:21:04 [main] Log - Add product to cart success
+[INFO ] 18-10-2023 17:21:04 [main] Log - Executed verifyAddProduct2ToCart test successfully
+[INFO ] 18-10-2023 17:21:04 [main] Log - ----Test Suite SecondTest ending----
+
+
+
