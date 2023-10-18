@@ -25,6 +25,7 @@ public class RegisterPage extends BaseSetup {
     private By errPassword = By.id("password-error");
     private By errConfirmPassword = By.id("password-confirmation-error");
     private By errRegisterMessage= By.xpath("//*[@id=\"maincontent\"]/div[2]/div[2]/div/div");
+    private By checkRegister = By.xpath("//*[@id=\"maincontent\"]/div[1]/div[2]/div/div/div");
 
     public RegisterPage() {
         validateHelper = new ValidateHelper(driver);
@@ -51,11 +52,12 @@ public class RegisterPage extends BaseSetup {
         Thread.sleep(1000);
         validateHelper.clickElement(createAnAccountBtn);
 
-        Thread.sleep(3000);
+        Thread.sleep(5000);
     }
 
     public boolean verifyRegisterAccount (){
-        if (validateHelper.checkFindElement(createAnAccountBtn)){
+
+        if (!validateHelper.checkFindElement(checkRegister)){
             Log.error(MessageHelper.errRegisterMessage);
             Log.error(validateHelper.getText(errRegisterMessage));
             Log.error(validateHelper.getText(errFirstName));
@@ -67,7 +69,7 @@ public class RegisterPage extends BaseSetup {
             ((JavascriptExecutor) driver).executeScript("scroll(0,-500)");
             return false;
         }
-
+        Log.info(validateHelper.getText(checkRegister));
         return true;
     }
 }

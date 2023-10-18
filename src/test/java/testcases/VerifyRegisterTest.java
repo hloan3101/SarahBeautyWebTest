@@ -24,9 +24,9 @@ public class VerifyRegisterTest extends BaseSetup {
         registerPage = homePage.setupRegisterAccountPage();
     }
 
-    @Test(dataProvider="testdata", description = "Verify that the register account when take the data from excel file.")
-    private void RegisterAccount (String firstName, String lastName, String email, String password,
-                                  String confirmPassword) throws Exception {
+    @Test(dataProvider= "testDataFeed", description = "Verify that the register account when take the data from excel file.")
+    private void verifyRegisterAccount(String firstName, String lastName, String email, String password,
+                                       String confirmPassword) throws Exception {
 
         registerPage.registerAccount(firstName, lastName, email, password, confirmPassword);
         Assert.assertTrue(registerPage.verifyRegisterAccount());
@@ -35,14 +35,14 @@ public class VerifyRegisterTest extends BaseSetup {
 
     @Test (description = "Verify that the sign in account  is success with correct firstname, lastname, email," +
             " password, confirm password")
-    private void RegisterAccountSuccess() throws InterruptedException {
+    private void verifyRegisterAccountSuccess() throws InterruptedException {
         registerPage.registerAccount("Cris", "Jack", "jackcris123@gmail.com",
                 "123456aA", "123456aA");
         Assert.assertTrue(registerPage.verifyRegisterAccount());
     }
 
     @DataProvider(name="testdata")
-    private Object[][] TestDataFeed() throws Exception {
+    private Object[][] testDataFeed() throws Exception {
         excelHelper = new ExcelHelper();
 
         excelHelper.setExcelFile("src/test/java/resoures/TestData.xlsx",

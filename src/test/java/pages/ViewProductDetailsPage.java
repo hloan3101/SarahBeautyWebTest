@@ -9,11 +9,11 @@ import ultilites.Log;
 
 public class ViewProductDetailsPage extends BaseSetup {
     ValidateHelper validateHelper;
-    private By increaseQuatityProductBtn = By.xpath("//*[@id=\"product_addtocart_form\"]" +
-            "/div/div/div[1]/div/span[2]/button");
-    private By reduceQuatityProductBtn = By.xpath("//*[@id=\"product_addtocart_form\"]/" +
-            "div/div/div[1]/div/span[1]/button");
-    private By addToCartButton = By.id("product-addtocart-button");
+    private By increaseQuatityProductBtn = By.xpath("//*[@id=\"product_addtocart_form\"]/div[2]/div/div/div[1]/div/span[2]/button");
+    private By reduceQuatityProductBtn = By.xpath("//*[@id=\"product_addtocart_form\"]/div[2]/div/div/div[1]/div/span[1]/button");
+    private By addToCartButton = By.xpath("//*[@id=\"product-addtocart-button\"]");
+    private By swatchOption = By.xpath("//*[@id=\"product-options-wrapper\"]/div/div/div/div");
+    private By selectOptionAb = By.id("option-label-choose_color-137-item-7");
     private By addToCartMessage = By.xpath("//*[@id=\"maincontent\"]/div[1]/div[2]/div/div");
 
     private By quantity = By.id("qty");
@@ -26,6 +26,7 @@ public class ViewProductDetailsPage extends BaseSetup {
 
     public void viewProductDetails() throws InterruptedException {
         validateHelper.waitForPageLoaded();
+        Log.info(MessageHelper.viewProductDetailPageMessage);
         //scroll down page
         Thread.sleep(2000);
         ((JavascriptExecutor) driver).executeScript("scroll(0,600)");
@@ -34,8 +35,14 @@ public class ViewProductDetailsPage extends BaseSetup {
         Thread.sleep(1000);
     }
 
+    public void selectSwatchOption () throws InterruptedException {
+        if (validateHelper.checkFindElement(swatchOption)){
+            validateHelper.clickElement(selectOptionAb);
+        }
+    }
+
     public String increaseQualityProduct () throws InterruptedException {
-        ((JavascriptExecutor) driver).executeScript("scroll(0,-900)");
+     //   ((JavascriptExecutor) driver).executeScript("scroll(0,-900)");
         Thread.sleep(1000);
         validateHelper.clickElement(increaseQuatityProductBtn);
         return getQuantity();
@@ -65,5 +72,4 @@ public class ViewProductDetailsPage extends BaseSetup {
         Log.info("Quantity: " + validateHelper.getValue(quantity));
         return  validateHelper.getValue(quantity);
     }
-
 }

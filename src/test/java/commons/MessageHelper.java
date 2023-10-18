@@ -5,6 +5,10 @@ public class MessageHelper {
     public static final String setUpChromeBrowserMessage = "Setup Chrome Browser";
     public static final String setUpHomePagerMessage = "Home Page";
     public static final String signInPageMessage = "Sign In Page";
+    public static final String viewProductDetailPageMessage = "View Product Details Page";
+    public static final String productPageMessage = "Product Page";
+    public static final String miniCartBlockMessage = "Mini Cart Block";
+    public static final String checkoutPageMessage = "Checkout Page";
     public static final String setupRegisterAccountPageMessage = "Register Account Page";
     public static final String signOutAccountMessage = "Sign Out Account...";
     public static final String errTimeOutMessage = "Timeout waiting for Page Load Request to complete.";
@@ -26,4 +30,8 @@ public class MessageHelper {
 
     public static final String addToCartSuccessMassage = "Add product to cart success";
     public static final String addToCartFailedMassage = "Add product to cart failed";
+//    public static final String productName1 = "POND'S Vitamin Micellar Water Brightening Rose with 5 Vitamins, " +
+//            "French Roses for a Bright Glow 100ml";
+    public static final String productName = "Maybelline Superstay Active Wear Liquid Foundation (30mL) " +
+            "- 30HR Coverage, Long lasting, Waterproof";
 }

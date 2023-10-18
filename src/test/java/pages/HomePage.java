@@ -1,5 +1,6 @@
 package pages;
 
+import blocks.MiniCartBlock;
 import commons.BaseSetup;
 import commons.MessageHelper;
 import commons.ValidateHelper;
@@ -33,6 +34,12 @@ public class HomePage extends BaseSetup {
         validateHelper.clickElement(creatAnAccountLinkText);
         Log.info(MessageHelper.setupRegisterAccountPageMessage);
         return new RegisterPage();
+    }
+
+    public MiniCartBlock setupMiniCartBlock(){
+        validateHelper.clickElement(miniCartIcon);
+        Log.info(MessageHelper.miniCartBlockMessage);
+        return new MiniCartBlock();
     }
 
     public boolean signOutAccount() throws InterruptedException {
@@ -71,7 +78,7 @@ public class HomePage extends BaseSetup {
         validateHelper.setText(searchInput, nameProduct);
         Thread.sleep(1000);
         validateHelper.pressEnterKey(searchInput);
-
+        Log.info(MessageHelper.productPageMessage);
     }
 
     public boolean verifySearchProduct (){

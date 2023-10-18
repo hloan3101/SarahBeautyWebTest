@@ -1,7 +1,6 @@
 package testcases;
 
 import commons.BaseSetup;
-import commons.ExcelHelper;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -10,17 +9,11 @@ import ultilites.TestListener;
 
 @Listeners(TestListener.class)
 public class VerifySearchProductTest extends BaseSetup {
-    private ExcelHelper excelHelper;
 
-    private void setUp () throws InterruptedException {
-        initChromeDriver();
-    }
-
-    @Test(description = "Verify that the search product is successful")
+    @Test(description = "Verify that the search product 1 is successful")
     public void verifySearchProductSuccess () throws InterruptedException {
-        setUp();
         HomePage homePage = new HomePage();
-        homePage.searchProduct("Pond");
+        homePage.searchProduct("Maybelline");
         Assert.assertTrue(homePage.verifySearchProduct());
     }
 
