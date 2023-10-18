@@ -3,21 +3,40 @@
 <suite name="Suite" verbose="1">
     <test name="FirstTest">
         <classes>
-            <class name="testcases.VerifySignInTest">
-                <methods>
-                    <include name="verifySignInSuccess"/>
-                </methods>
+            <class name="testcases.VerifyRegisterTest">
+                <methods><include name="verifyRegisterAccountSuccess"/></methods>
             </class>
             <class name="testcases.VerifySearchProductTest">
-                <methods>
-                    <include name="verifySearchProductSuccess"/>
-                </methods>
+                <methods><include name="verifySearchProductSuccess"/></methods>
             </class>
-            <class name="testcases.VerifyViewProductDetailsTest"></class>
+            <class name="testcases.VerifyViewProductDetailsTest">
+                <methods><include name="verifyViewProductDetails"/></methods>
+            </class>
+            <class name="testcases.VerifyAddProductToCart">
+                <methods><exclude name="verifyAddProductToCart"/></methods>
+            </class>
             <class name="testcases.VerifySignOutTest">
-                <methods>
-                    <include name="SignOut"/>
-                </methods>
+                <methods><include name="SignOut"/></methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SecondTest">
+        <classes>
+            <class name="testcases.VerifySignInTest">
+                <methods><include name="verifySignInSuccess"/></methods>
+            </class>
+            <class name="testcases.VerifySearchProductTest">
+                <methods><include name="verifySearchProductSuccess"/></methods>
+            </class>
+            <class name="testcases.VerifyViewProductDetailsTest">
+                <methods><include name="verifyViewProductDetails"/></methods>
+            </class>
+            <class name="testcases.VerifyAddProductToCart">
+                <methods><exclude name="verifyAddProductToCart"/></methods>
+            </class>
+            <class name="testcases.VerifySignOutTest">
+                <methods><include name="SignOut"/></methods>
             </class>
         </classes>
     </test>
