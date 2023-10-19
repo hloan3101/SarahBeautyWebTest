@@ -25,7 +25,7 @@ public class VerifyAddProductToCart extends BaseSetup {
     }
 
     @Test(priority = 3, description = "Verify that the add product to cart")
-    public void verifyAddProduct2ToCart () throws InterruptedException {
+    public void verifyAddProductToCart () throws InterruptedException {
         viewProductDetailsPage.addProductToCart();
         Assert.assertTrue(viewProductDetailsPage.verifyAddProductToCart(MessageHelper.productName));
     }

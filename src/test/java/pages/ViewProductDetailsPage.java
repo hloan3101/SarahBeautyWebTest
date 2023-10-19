@@ -42,7 +42,6 @@ public class ViewProductDetailsPage extends BaseSetup {
     }
 
     public String increaseQualityProduct () throws InterruptedException {
-     //   ((JavascriptExecutor) driver).executeScript("scroll(0,-900)");
         Thread.sleep(1000);
         validateHelper.clickElement(increaseQuatityProductBtn);
         return getQuantity();
@@ -57,6 +56,9 @@ public class ViewProductDetailsPage extends BaseSetup {
     public void addProductToCart () throws InterruptedException {
         Thread.sleep(2000);
         validateHelper.clickElement(addToCartButton);
+        Thread.sleep(1000);
+        ((JavascriptExecutor) driver).executeScript("scroll(0,-900)");
+
     }
     public boolean verifyAddProductToCart (String productName){
         if (validateHelper.getText(addToCartMessage).equals("You added " +productName + " to your shopping cart.")){

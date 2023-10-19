@@ -14,6 +14,7 @@ public class HomePage extends BaseSetup {
     private By signInLinkText = By.xpath("//*[@id=\"html-body\"]/div[2]/header/div[1]/div/ul/li[2]");
     private By creatAnAccountLinkText = By.xpath("//*[@id=\"html-body\"]/div[2]/header/div[1]/div/ul/li[3]");
     private By customerMenuBtn = By.xpath("//*[@id=\"html-body\"]/div[2]/header/div[1]/div/ul/li[2]/span/button");
+    private By accountLink = By.id("id7KhuXAbv");
     private By signOutLink = By.xpath("//*[@id=\"html-body\"]/div[2]/header/div[1]/div/ul/li[2]/div/ul/li[3]");
     private By searchInput = By.xpath("//*[@id=\"search\"]");
     private By searchInputMessage = By.xpath("//*[@id=\"maincontent\"]/div[3]/div[1]/div[2]");
@@ -36,10 +37,30 @@ public class HomePage extends BaseSetup {
         return new RegisterPage();
     }
 
-    public MiniCartBlock setupMiniCartBlock(){
+    public MiniCartBlock setupMiniCartBlock() throws InterruptedException {
         validateHelper.clickElement(miniCartIcon);
         Log.info(MessageHelper.miniCartBlockMessage);
+        Thread.sleep(3000);
         return new MiniCartBlock();
+    }
+
+    public boolean setUpAccountPage () throws InterruptedException {
+        Thread.sleep(2000);
+
+        validateHelper.clickElement(customerMenuBtn);
+
+        if (!validateHelper.checkFindElement(customerMenuBtn)){
+            Log.error(MessageHelper.errCustomerMenuMessage);
+            return false;
+        }
+
+        Thread.sleep(3000);
+        validateHelper.clickElement(accountLink);
+
+        Thread.sleep(8000);
+
+        Log.info(MessageHelper.signOutAccountMessage);
+        return true;
     }
 
     public boolean signOutAccount() throws InterruptedException {

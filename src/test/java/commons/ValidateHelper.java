@@ -59,6 +59,10 @@ public class ValidateHelper {
         return driver.findElement(element).getText().equals(textValue);
     }
 
+    public boolean checkSelected (By element){
+        return driver.findElement(element).isSelected();
+    }
+
     public boolean checkFindElement (By element){
         try {
             WebElement webElement = driver.findElement(element);
