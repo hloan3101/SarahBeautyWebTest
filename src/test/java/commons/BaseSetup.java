@@ -9,6 +9,7 @@ public class BaseSetup {
 
     public static WebDriver driver;
     private final String webUrl = "http://sarahbeauty.com/";
+    public String orderTotal;
 
 
     public void initChromeDriver () throws InterruptedException {
@@ -20,6 +21,8 @@ public class BaseSetup {
         driver.manage().window().maximize();
         Log.info(MessageHelper.setUpHomePagerMessage);
         Thread.sleep(2000);
+
+        orderTotal = " ";
     }
 
     public WebDriver getDriver() {
@@ -30,5 +33,13 @@ public class BaseSetup {
     public void tearDown() throws Exception {
         Thread.sleep(2000);
         driver.quit();
+    }
+
+    public String getOrderTotal() {
+        return orderTotal;
+    }
+
+    public void setOrderTotal(String orderTotal) {
+        this.orderTotal = orderTotal;
     }
 }

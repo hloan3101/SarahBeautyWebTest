@@ -9,7 +9,7 @@ import ultilites.Log;
 public class CheckoutPage extends BaseSetup {
     private ValidateHelper validateHelper;
     private By cashOnDeliveryRadio = By.id("cashondelivery");
-    private By paypalExpressCheckoutRadio = By.id("paypal_express");
+    private By paypalExpressCheckoutRadio = By.xpath("//*[@id=\"checkout-payment-method-load\"]/div/div/div[3]/div[1]/label");
     private By applyDiscountCodeLink = By.id("block-discount-heading");
     private By placeOderBtn = By.xpath("//*[@id=\"checkout-payment-method-load\"]/div/div/div[2]" +
             "/div[2]/div[4]/div/button");
@@ -20,6 +20,9 @@ public class CheckoutPage extends BaseSetup {
     private By errDiscountCodeMessage = By.id("checkout-cart-validationmessages-message-error");
     private By errDiscounMessage = By.id("discount-code-error");
     private By checkoutMessage = By.xpath("//*[@id=\"maincontent\"]/div[1]/h1/span");
+    private By errPayPalPaymentMessage = By.xpath("//*[@id=\"maincontent\"]/div[2]/div[3]/div/div");
+
+    private By orderTotal = By.xpath("//*[@id=\"opc-sidebar\"]/div[1]/table/tbody/tr[3]/td/strong/span");
     public CheckoutPage() {
         validateHelper = new ValidateHelper(driver);
     }
@@ -33,11 +36,11 @@ public class CheckoutPage extends BaseSetup {
     }
 
     public boolean selectPaypalPayment () throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         validateHelper.clickElement(paypalExpressCheckoutRadio);
         Thread.sleep(1000);
 
-        return validateHelper.checkSelected(paypalExpressCheckoutRadio);
+        return validateHelper.checkFindElement(continueToPaypalBtn);
     }
 
     public boolean orderByCashOnDeliveryPayment () throws InterruptedException {
@@ -47,9 +50,16 @@ public class CheckoutPage extends BaseSetup {
         return  validateHelper.getText(checkoutMessage).equals(MessageHelper.checkoutSuccessMessage);
     }
 
-    public void orderByPaypal () throws InterruptedException {
+    public boolean orderByPaypal () throws InterruptedException {
         Thread.sleep(5000);
         validateHelper.clickElement(continueToPaypalBtn);
+        Thread.sleep(5000);
+        if (validateHelper.checkFindElement(errPayPalPaymentMessage)){
+            Log.error(validateHelper.getText(errPayPalPaymentMessage));
+            return false;
+        }
+
+        return true;
     }
 
     public boolean applyDiscountCode (String discountCode) throws InterruptedException {
@@ -69,6 +79,8 @@ public class CheckoutPage extends BaseSetup {
             Log.error(validateHelper.getText(errDiscounMessage));
             return false;
         }
+
+        setOrderTotal(validateHelper.getText(orderTotal));
 
         return true;
     }

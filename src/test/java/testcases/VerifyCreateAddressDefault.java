@@ -19,7 +19,7 @@ public class VerifyCreateAddressDefault extends BaseSetup {
         Assert.assertTrue(homePage.setUpAccountPage());
         accountPage = new AccountPage();
     }
-    @Test
+    @Test (description = "Verify that the create default address with correct data")
     public void verifyCreateAddress () throws InterruptedException {
         accountPage = new AccountPage();
         accountPage.setAddress("0862672122", "Donald Trump", "Alaska", "Anchorage", "99516");

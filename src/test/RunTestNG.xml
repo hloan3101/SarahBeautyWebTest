@@ -1,61 +1,75 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite" verbose="1">
-    <test name="FirstTest">
+        <test name="FirstTest">
+            <classes>
+                <class name="testcases.VerifyRegisterTest">
+                    <methods><include name="verifyRegisterAccountSuccess"/></methods>
+                </class>
+                <class name="testcases.VerifyCreateAddressDefault"/>
+                <class name="testcases.VerifySearchProductTest">
+                    <methods><include name="verifySearchProductSuccess"/></methods>
+                </class>
+                <class name="testcases.VerifyViewProductDetailsTest">
+                    <methods><include name="verifyViewProductDetails"/></methods>
+                </class>
+                <class name="testcases.VerifyAddProductToCart"/>
+                <class name="testcases.VerifyProductManagement">
+                    <methods>
+                        <include name="verifyIncreaseQuantityProduct"/>
+                        <include name="verifyCheckOutCart"/>
+                    </methods>
+                </class>
+                <class name="testcases.VerifyCheckout">
+                    <methods>
+                        <include name="verifyApplyDiscountCode"/>
+                        <include name="verifySelectCashOnDeliveryPayment"/>
+                        <include name="verifyOderByCashDeliveryMethod"/>
+                    </methods>
+                </class>
+                <class name="testcases.VerifyReviewOrder"/>
+                <class name="testcases.VerifySignOutTest"/>
+            </classes>
+        </test>
+
+    <test name="SecondTest">
         <classes>
-            <class name="testcases.VerifyRegisterTest">
-                <methods><include name="verifyRegisterAccountSuccess"/></methods>
+            <class name="testcases.VerifySignInTest">
+                <methods>
+                    <include name="verifySignInSuccess"/>
+                </methods>
             </class>
-            
-            <class name="testcases.VerifyCreateAddressDefault"></class>
+
             <class name="testcases.VerifySearchProductTest">
-                <methods><include name="verifySearchProductSuccess"/></methods>
+                <methods>
+                    <include name="verifySearchProductSuccess"/>
+                </methods>
             </class>
             <class name="testcases.VerifyViewProductDetailsTest">
-                <methods><include name="verifyViewProductDetails"/></methods>
+                <methods>
+                    <include name="verifyViewProductDetails"/>
+                </methods>
             </class>
-            <class name="testcases.VerifyAddProductToCart"></class>
+            <class name="testcases.VerifyAddProductToCart">
+                <methods>
+                    <exclude name="verifyReduceQuantityProduct"/>
+                </methods>
+            </class>
             <class name="testcases.VerifyProductManagement">
                 <methods>
-                    <include name="verifyIncreaseQuantityProduct"/>
+                    <include name="verifyReduceQuantityProduct"/>
                     <include name="verifyCheckOutCart"/>
                 </methods>
             </class>
             <class name="testcases.VerifyCheckout">
                 <methods>
                     <include name="verifyApplyDiscountCode"/>
-                    <include name="verifySelectCashOnDeliveryPayment"/>
-                    <include name="verifyOderByCashDeliveryMethod"/>
+                    <include name="verifySelectPaypalPayment"/>
+                    <include name="verifyOderByPaypalMethod"/>
                 </methods>
             </class>
+            <class name="testcases.VerifyReviewOrder"/>
+            <class name="testcases.VerifySignOutTest"/>
         </classes>
     </test>
-
-<!--    <test name="SecondTest">-->
-<!--    <classes>-->
-<!--        <class name="testcases.VerifySignInTest">-->
-<!--            <methods><include name="verifySignInSuccess"/></methods>-->
-<!--        </class>-->
-
-<!--            <class name="testcases.VerifySearchProductTest">-->
-<!--                <methods><include name="verifySearchProductSuccess"/></methods>-->
-<!--            </class>-->
-<!--            <class name="testcases.VerifyViewProductDetailsTest">-->
-<!--                <methods><include name="verifyViewProductDetails"/></methods>-->
-<!--            </class>-->
-<!--            <class name="testcases.VerifyAddProductToCart">-->
-<!--                <methods><exclude name="verifyAddProductToCart"/></methods>-->
-<!--            </class>-->
-<!--            <class name="testcases.VerifyProductManagement">-->
-<!--                <methods>-->
-<!--                    <include name="verifyIncreaseQuantityProduct"/>-->
-<!--                    <include name="verifyCheckOutCart"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-
-<!--            <class name="testcases.VerifySignOutTest">-->
-<!--                <methods><include name="SignOut"/></methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
 </suite>

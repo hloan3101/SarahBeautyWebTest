@@ -26,7 +26,7 @@ public class MiniCartBlock extends BaseSetup {
         Thread.sleep(3000);
         validateHelper.clickElement(updateBtn);
         Thread.sleep(2000);
-        Log.info("Tmp: " +tmp);
+
         Log.info("Quantity: " +getQuantity());
         return Integer.valueOf(getQuantity()) == tmp;
     }
@@ -37,6 +37,8 @@ public class MiniCartBlock extends BaseSetup {
         validateHelper.clickElement(reduceBtn);
         Thread.sleep(2000);
         validateHelper.clickElement(updateBtn);
+        Thread.sleep(2000);
+
         Log.info("Quantity: " + getQuantity());
         return Integer.valueOf(getQuantity()) == tmp;
     }
