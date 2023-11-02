@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import ultilites.Log;
+import ultilities.Log;
 
 import java.time.Duration;
 
@@ -26,7 +26,6 @@ public class ValidateHelper {
         driver.findElement(element).clear();
         driver.findElement(element).sendKeys(value);
     }
-
 
     public String getText (By element){
         wait.until(ExpectedConditions.elementToBeClickable(element));

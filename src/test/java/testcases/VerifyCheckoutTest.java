@@ -7,7 +7,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.CheckoutPage;
 import pages.PayPalPage;
-import ultilites.TestListener;
+import ultilities.TestListener;
 
 @Listeners(TestListener.class)
 public class VerifyCheckoutTest extends BaseSetup {

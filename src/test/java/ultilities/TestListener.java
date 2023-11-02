@@ -1,4 +1,4 @@
-package ultilites;
+package ultilities;
 
 import com.aventstack.extentreports.Status;
 import org.testng.ITestContext;

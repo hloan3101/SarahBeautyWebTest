@@ -9,11 +9,10 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.RegisterPage;
-import ultilites.TestListener;
+import ultilities.TestListener;
 
 @Listeners(TestListener.class)
 public class VerifyRegisterTest extends BaseSetup {
-
     private RegisterPage registerPage;
     private ExcelHelper excelHelper;
 
@@ -24,6 +23,14 @@ public class VerifyRegisterTest extends BaseSetup {
         registerPage = homePage.setupRegisterAccountPage();
     }
 
+    @Test (description = "Verify that the sign in account  is success with correct firstname, lastname, email," +
+            " password, confirm password")
+    private void verifyRegisterAccountSuccess() throws InterruptedException {
+        registerPage.registerAccount("Cris", "Jack", "jackcris123@gmail.com",
+                "123456aA", "123456aA");
+        Assert.assertTrue(registerPage.verifyRegisterAccount());
+    }
+
     @Test(dataProvider= "testDataFeed", description = "Verify that the register account when take the data from excel file.")
     private void verifyRegisterAccount(String firstName, String lastName, String email, String password,
                                        String confirmPassword) throws Exception {
@@ -31,14 +38,6 @@ public class VerifyRegisterTest extends BaseSetup {
         registerPage.registerAccount(firstName, lastName, email, password, confirmPassword);
         Assert.assertTrue(registerPage.verifyRegisterAccount());
         tearDown();
-    }
-
-    @Test (description = "Verify that the sign in account  is success with correct firstname, lastname, email," +
-            " password, confirm password")
-    private void verifyRegisterAccountSuccess() throws InterruptedException {
-        registerPage.registerAccount("Cris", "Jack", "jackcris123@gmail.com",
-                "123456aA", "123456aA");
-        Assert.assertTrue(registerPage.verifyRegisterAccount());
     }
 
     @DataProvider(name="testdata")

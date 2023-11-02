@@ -3,7 +3,7 @@ package blocks;
 import commons.BaseSetup;
 import commons.ValidateHelper;
 import org.openqa.selenium.By;
-import ultilites.Log;
+import ultilities.Log;
 
 public class MiniCartBlock extends BaseSetup {
     private ValidateHelper validateHelper;

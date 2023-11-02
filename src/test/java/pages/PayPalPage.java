@@ -4,7 +4,7 @@ import commons.BaseSetup;
 import commons.MessageHelper;
 import commons.ValidateHelper;
 import org.openqa.selenium.By;
-import ultilites.Log;
+import ultilities.Log;
 
 public class PayPalPage extends BaseSetup {
 

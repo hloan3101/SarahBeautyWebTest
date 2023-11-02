@@ -5,7 +5,7 @@ import commons.MessageHelper;
 import commons.ValidateHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import ultilites.Log;
+import ultilities.Log;
 
 public class ViewProductDetailsPage extends BaseSetup {
     ValidateHelper validateHelper;

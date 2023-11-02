@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.ViewProductDetailsPage;
-import ultilites.TestListener;
+import ultilities.TestListener;
 
 @Listeners(TestListener.class)
 public class VerifyAddProductToCartTest extends BaseSetup {

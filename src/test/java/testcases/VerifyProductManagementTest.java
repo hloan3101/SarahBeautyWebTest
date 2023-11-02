@@ -7,8 +7,8 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
-import ultilites.Log;
-import ultilites.TestListener;
+import ultilities.Log;
+import ultilities.TestListener;
 
 @Listeners(TestListener.class)
 public class VerifyProductManagementTest extends BaseSetup {

@@ -5,7 +5,7 @@ import commons.MessageHelper;
 import commons.ValidateHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import ultilites.Log;
+import ultilities.Log;
 
 public class AccountPage extends BaseSetup {
     private ValidateHelper validateHelper;
@@ -14,8 +14,6 @@ public class AccountPage extends BaseSetup {
     private By errorRegionMassage = By.id("region_id-error");
     private By errorCityMassage = By.id("city-error");
     private By errorZipCodeMassage = By.id("zip-error");
-
-
     private By addressBookLink = By.xpath("//*[@id=\"block-collapsible-nav\"]/ul/li[6]/a");
     private By phoneNumberInput = By.id("telephone");
     private By streetAddressInput = By.id("street_1");
