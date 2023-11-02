@@ -9,7 +9,7 @@ import pages.HomePage;
 import ultilites.TestListener;
 
 @Listeners(TestListener.class)
-public class VerifyCreateAddressDefault extends BaseSetup {
+public class VerifyCreateAddressDefaultTest extends BaseSetup {
 
     HomePage homePage;
     AccountPage accountPage;

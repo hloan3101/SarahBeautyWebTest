@@ -7,7 +7,7 @@ import pages.ReviewOrderPage;
 import ultilites.TestListener;
 
 @Listeners(TestListener.class)
-public class VerifyReviewOrder {
+public class VerifyReviewOrderTest {
 
     private ReviewOrderPage reviewOrderPage;
 

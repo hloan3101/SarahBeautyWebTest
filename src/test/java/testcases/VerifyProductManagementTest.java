@@ -11,7 +11,7 @@ import ultilites.Log;
 import ultilites.TestListener;
 
 @Listeners(TestListener.class)
-public class VerifyProductManagement extends BaseSetup {
+public class VerifyProductManagementTest extends BaseSetup {
 
     HomePage homePage;
     MiniCartBlock miniCartBlock;

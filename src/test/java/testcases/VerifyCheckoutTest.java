@@ -10,7 +10,7 @@ import pages.PayPalPage;
 import ultilites.TestListener;
 
 @Listeners(TestListener.class)
-public class VerifyCheckout extends BaseSetup {
+public class VerifyCheckoutTest extends BaseSetup {
 
     private CheckoutPage checkoutPage;
 

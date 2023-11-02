@@ -9,7 +9,7 @@ import pages.ViewProductDetailsPage;
 import ultilites.TestListener;
 
 @Listeners(TestListener.class)
-public class VerifyAddProductToCart extends BaseSetup {
+public class VerifyAddProductToCartTest extends BaseSetup {
     private ViewProductDetailsPage viewProductDetailsPage;
 
     @Test(priority = 1, description = "Verify that the increase quantity product")
