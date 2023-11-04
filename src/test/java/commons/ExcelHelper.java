@@ -50,9 +50,9 @@ public class ExcelHelper {
         }
     }
 
-    public String getCellData(int rownum, int colnum) throws Exception{
+    public String getCellData(int rowNumber, int colNumber) throws Exception{
         try{
-            cell = sh.getRow(rownum + 1).getCell(colnum);
+            cell = sh.getRow(rowNumber + 1).getCell(colNumber);
             String CellData = null;
             switch (cell.getCellType()){
                 case STRING:
@@ -82,8 +82,8 @@ public class ExcelHelper {
     }
 
     //Gọi ra hàm này nè
-    public String getCellData(String columnName, int rownum) throws Exception {
-        return getCellData(rownum, columns.get(columnName));
+    public String getCellData(String colName, int rowNumber) throws Exception {
+        return getCellData(rowNumber, columns.get(colName));
     }
 
     public int getRowCount(int sheetIndex) {

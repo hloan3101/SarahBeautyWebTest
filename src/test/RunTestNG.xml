@@ -1,26 +1,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite" verbose="1">
-    <listeners>
-        <listener class-name="ultilities.TestListener"/>
-    </listeners>
+    <listeners><listener class-name="ultilities.TestListener"/></listeners>
     <test name="FirstTest">
         <classes>
             <class name="testcases.VerifyRegisterTest">
-                <methods>
-                    <include name="verifyRegisterAccountSuccess"/>
-                </methods>
+                <methods><include name="verifyRegisterAccountSuccess"/></methods>
             </class>
             <class name="testcases.VerifyCreateAddressDefaultTest"/>
             <class name="testcases.VerifySearchProductTest">
-                <methods>
-                    <include name="verifySearchProductSuccess"/>
-                </methods>
+                <methods><include name="verifySearchProductSuccess"/></methods>
             </class>
             <class name="testcases.VerifyViewProductDetailsTest">
-                <methods>
-                    <include name="verifyViewProductDetails"/>
-                </methods>
+                <methods><include name="verifyViewProductDetails"/></methods>
             </class>
             <class name="testcases.VerifyAddProductToCartTest"/>
             <class name="testcases.VerifyProductManagementTest">
@@ -44,25 +36,17 @@
     <test name="SecondTest">
         <classes>
             <class name="testcases.VerifySignInTest">
-                <methods>
-                    <include name="verifySignInSuccess"/>
-                </methods>
+                <methods><include name="verifySignInSuccess"/></methods>
             </class>
 
             <class name="testcases.VerifySearchProductTest">
-                <methods>
-                    <include name="verifySearchProductSuccess"/>
-                </methods>
+                <methods><include name="verifySearchProductSuccess"/></methods>
             </class>
             <class name="testcases.VerifyViewProductDetailsTest">
-                <methods>
-                    <include name="verifyViewProductDetails"/>
-                </methods>
+                <methods><include name="verifyViewProductDetails"/></methods>
             </class>
             <class name="testcases.VerifyAddProductToCartTest">
-                <methods>
-                    <exclude name="verifyReduceQuantityProduct"/>
-                </methods>
+                <methods><exclude name="verifyReduceQuantityProduct"/></methods>
             </class>
             <class name="testcases.VerifyProductManagementTest">
                 <methods>
