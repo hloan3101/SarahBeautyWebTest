@@ -60,7 +60,8 @@ public class ViewProductDetailsPage extends BaseSetup {
         ((JavascriptExecutor) driver).executeScript("scroll(0,-900)");
 
     }
-    public boolean verifyAddProductToCart (String productName){
+    public boolean verifyAddProductToCart (String productName) throws InterruptedException {
+        validateHelper.waitForPageLoaded();
         if (validateHelper.getText(addToCartMessage).equals("You added " +productName + " to your shopping cart.")){
             Log.info(MessageHelper.addToCartSuccessMassage);
             return true;

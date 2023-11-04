@@ -21,13 +21,12 @@ public class CheckoutPage extends BaseSetup {
     private By errDiscounMessage = By.id("discount-code-error");
     private By checkoutMessage = By.xpath("//*[@id=\"maincontent\"]/div[1]/h1/span");
     private By errPayPalPaymentMessage = By.xpath("//*[@id=\"maincontent\"]/div[2]/div[3]/div/div");
-
-    private By orderTotal = By.xpath("//*[@id=\"opc-sidebar\"]/div[1]/table/tbody/tr[3]/td/strong/span");
     public CheckoutPage() {
         validateHelper = new ValidateHelper(driver);
     }
 
     public boolean selectCashOnDeliveryPayment () throws InterruptedException {
+        validateHelper.waitForPageLoaded();
         Thread.sleep(5000);
         validateHelper.clickElement(cashOnDeliveryRadio);
         Thread.sleep(1000);
@@ -36,6 +35,7 @@ public class CheckoutPage extends BaseSetup {
     }
 
     public boolean selectPaypalPayment () throws InterruptedException {
+        validateHelper.waitForPageLoaded();
         Thread.sleep(5000);
         validateHelper.clickElement(paypalExpressCheckoutRadio);
         Thread.sleep(1000);
@@ -44,13 +44,17 @@ public class CheckoutPage extends BaseSetup {
     }
 
     public boolean orderByCashOnDeliveryPayment () throws InterruptedException {
+        validateHelper.waitForPageLoaded();
         Thread.sleep(5000);
         validateHelper.clickElement(placeOderBtn);
         Thread.sleep(5000);
+        validateHelper.waitForPageLoaded();
+        Log.info(validateHelper.getText(checkoutMessage));
         return  validateHelper.getText(checkoutMessage).equals(MessageHelper.checkoutSuccessMessage);
     }
 
     public boolean orderByPaypal () throws InterruptedException {
+        validateHelper.waitForPageLoaded();
         Thread.sleep(5000);
         validateHelper.clickElement(continueToPaypalBtn);
         Thread.sleep(5000);
@@ -63,7 +67,9 @@ public class CheckoutPage extends BaseSetup {
     }
 
     public boolean applyDiscountCode (String discountCode) throws InterruptedException {
-        Thread.sleep(1000);
+        validateHelper.waitForPageLoaded();
+
+        Thread.sleep(2000);
         validateHelper.clickElement(applyDiscountCodeLink);
         Thread.sleep(1000);
         validateHelper.setText(discountCodeInput, discountCode);
@@ -79,8 +85,7 @@ public class CheckoutPage extends BaseSetup {
             Log.error(validateHelper.getText(errDiscounMessage));
             return false;
         }
-
-        setOrderTotal(validateHelper.getText(orderTotal));
+        Thread.sleep(1000);
 
         return true;
     }

@@ -37,7 +37,7 @@ public class VerifySignInTest extends BaseSetup {
         HomePage homePage = new HomePage();
         signInPage = homePage.setupSignInPage();
     //   signInPage.signIn("hloan975@gmail.com", "123456aA");
-        signInPage.signIn("jackcris123@gmail.com", "123456aA");
+        signInPage.signIn("johndoe123@gmail.com", "123456aA");
         Assert.assertTrue(signInPage.verifySignIn());
     }
 

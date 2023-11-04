@@ -22,24 +22,27 @@ public class MiniCartBlock extends BaseSetup {
     public boolean increaseQuantityProduct () throws InterruptedException {
         Thread.sleep(2000);
         int tmp = Integer.valueOf(getQuantity())+ 1;
+        Log.info("Quantity of the product: " + getQuantity());
         validateHelper.clickElement(increaseBtn);
         Thread.sleep(3000);
         validateHelper.clickElement(updateBtn);
         Thread.sleep(2000);
 
-        Log.info("Quantity: " +getQuantity());
+        Log.info("Quantity of the product after increase: " +getQuantity());
         return Integer.valueOf(getQuantity()) == tmp;
     }
 
     public boolean reduceQuantityProduct () throws InterruptedException {
+        Thread.sleep(2000);
         int tmp = Integer.valueOf(getQuantity())- 1;
+        Log.info("Quantity of the product: " + getQuantity());
         Thread.sleep(2000);
         validateHelper.clickElement(reduceBtn);
         Thread.sleep(2000);
         validateHelper.clickElement(updateBtn);
         Thread.sleep(2000);
 
-        Log.info("Quantity: " + getQuantity());
+        Log.info("Quantity of the product after reduction: " + getQuantity());
         return Integer.valueOf(getQuantity()) == tmp;
     }
 
@@ -55,7 +58,8 @@ public class MiniCartBlock extends BaseSetup {
         return validateHelper.getText(titleCheckoutPage).equals("Checkout");
     }
 
-    public String getQuantity (){
+    public String getQuantity () throws InterruptedException {
+        Thread.sleep(2000);
         return driver.findElement(quantityInput).getAttribute("data-item-qty");
     }
 }

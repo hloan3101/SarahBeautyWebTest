@@ -14,7 +14,9 @@
             <class name="testcases.VerifyViewProductDetailsTest">
                 <methods><include name="verifyViewProductDetails"/></methods>
             </class>
-            <class name="testcases.VerifyAddProductToCartTest"/>
+            <class name="testcases.VerifyAddProductToCartTest">
+                <methods><include name="verifyAddProductToCart"/></methods>
+            </class>
             <class name="testcases.VerifyProductManagementTest">
                 <methods>
                     <include name="verifyIncreaseQuantityProduct"/>
@@ -46,7 +48,7 @@
                 <methods><include name="verifyViewProductDetails"/></methods>
             </class>
             <class name="testcases.VerifyAddProductToCartTest">
-                <methods><exclude name="verifyReduceQuantityProduct"/></methods>
+                <methods><exclude name="verifyAddProductToCart"/></methods>
             </class>
             <class name="testcases.VerifyProductManagementTest">
                 <methods>

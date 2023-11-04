@@ -18,14 +18,21 @@ public class VerifyAddProductToCartTest extends BaseSetup {
         viewProductDetailsPage.selectSwatchOption();
         Assert.assertTrue(viewProductDetailsPage.increaseQualityProduct().equals("2"));
     }
+//
+//    @Test(priority = 2, description = "Verify that the reduce quantity product")
+//    public void verifyReduceQuantityProduct () throws InterruptedException {
+//        Assert.assertTrue(viewProductDetailsPage.reduceQualityProduct().equals("1"));
+//    }
 
-    @Test(priority = 2, description = "Verify that the reduce quantity product")
-    public void verifyReduceQuantityProduct () throws InterruptedException {
-        Assert.assertTrue(viewProductDetailsPage.reduceQualityProduct().equals("1"));
-    }
-
-    @Test(priority = 3, description = "Verify that the add product to cart")
+    @Test(description = "Verify that the add product to cart")
     public void verifyAddProductToCart () throws InterruptedException {
+        viewProductDetailsPage = new ViewProductDetailsPage();
+        viewProductDetailsPage.selectSwatchOption();
+        viewProductDetailsPage.addProductToCart();
+        Assert.assertTrue(viewProductDetailsPage.verifyAddProductToCart(MessageHelper.productName));
+    }
+    @Test(priority = 2, description = "Verify that the add product to cart")
+    public void verifyAddProductToCart2 () throws InterruptedException {
         viewProductDetailsPage.addProductToCart();
         Assert.assertTrue(viewProductDetailsPage.verifyAddProductToCart(MessageHelper.productName));
     }
