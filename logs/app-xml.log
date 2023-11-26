@@ -1,0 +1,90 @@
+[INFO ] 04-11-2023 19:44:02 [main] Log - ----Test Suite FirstTest is starting----
+[INFO ] 04-11-2023 19:44:02 [main] Log - Setup Chrome Browser
+[INFO ] 04-11-2023 19:44:05 [main] Log - Home Page
+[INFO ] 04-11-2023 19:44:08 [main] Log - Register Account Page
+[INFO ] 04-11-2023 19:44:08 [main] Log - ----Running Test Method verifyRegisterAccountSuccess----
+[INFO ] 04-11-2023 19:44:31 [main] Log - Thank you for registering with Sarah.
+[INFO ] 04-11-2023 19:44:31 [main] Log - Executed verifyRegisterAccountSuccess test is passed
+[INFO ] 04-11-2023 19:44:31 [main] Log - ----Running Test Method verifyCreateAddress----
+[INFO ] 04-11-2023 19:44:44 [main] Log - You saved the address.
+[INFO ] 04-11-2023 19:44:44 [main] Log - Executed verifyCreateAddress test is passed
+[INFO ] 04-11-2023 19:44:44 [main] Log - ----Running Test Method verifySearchProductSuccess----
+[INFO ] 04-11-2023 19:44:47 [main] Log - Product Page
+[INFO ] 04-11-2023 19:44:48 [main] Log - Search result: 2 Items
+[INFO ] 04-11-2023 19:44:48 [main] Log - Executed verifySearchProductSuccess test is passed
+[INFO ] 04-11-2023 19:44:48 [main] Log - ----Running Test Method verifyViewProductDetails----
+[INFO ] 04-11-2023 19:44:57 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 04-11-2023 19:44:58 [main] Log - View Product Details Page
+[INFO ] 04-11-2023 19:45:02 [main] Log - Executed verifyViewProductDetails test is passed
+[INFO ] 04-11-2023 19:45:02 [main] Log - ----Running Test Method verifyAddProductToCart----
+[INFO ] 04-11-2023 19:45:06 [main] Log - Add product to cart success
+[INFO ] 04-11-2023 19:45:06 [main] Log - Executed verifyAddProductToCart test is passed
+[INFO ] 04-11-2023 19:45:06 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 04-11-2023 19:45:06 [main] Log - Mini Cart Block
+[INFO ] 04-11-2023 19:45:16 [main] Log - Quantity of the product: 1
+[INFO ] 04-11-2023 19:45:23 [main] Log - Quantity of the product after increase: 2
+[INFO ] 04-11-2023 19:45:25 [main] Log - Executed verifyIncreaseQuantityProduct test is passed
+[INFO ] 04-11-2023 19:45:25 [main] Log - ----Running Test Method verifyCheckOutCart----
+[INFO ] 04-11-2023 19:45:29 [main] Log - Checkout Page
+[INFO ] 04-11-2023 19:45:29 [main] Log - Executed verifyCheckOutCart test is passed
+[INFO ] 04-11-2023 19:45:29 [main] Log - ----Running Test Method verifyApplyDiscountCode----
+[INFO ] 04-11-2023 19:45:35 [main] Log - Executed verifyApplyDiscountCode test is passed
+[INFO ] 04-11-2023 19:45:35 [main] Log - ----Running Test Method verifySelectCashOnDeliveryPayment----
+[INFO ] 04-11-2023 19:45:42 [main] Log - Executed verifySelectCashOnDeliveryPayment test is passed
+[INFO ] 04-11-2023 19:45:42 [main] Log - ----Running Test Method verifyOderByCashDeliveryMethod----
+[INFO ] 04-11-2023 19:45:55 [main] Log - Thank you for your purchase!
+[INFO ] 04-11-2023 19:45:55 [main] Log - Executed verifyOderByCashDeliveryMethod test is passed
+[INFO ] 04-11-2023 19:45:55 [main] Log - ----Running Test Method verifyReviewOrder----
+[INFO ] 04-11-2023 19:45:57 [main] Log - Order Number: 000000044
+[INFO ] 04-11-2023 19:46:05 [main] Log - Executed verifyReviewOrder test is passed
+[INFO ] 04-11-2023 19:46:05 [main] Log - ----Running Test Method SignOut----
+[INFO ] 04-11-2023 19:46:07 [main] Log - Sign Out Account...
+[INFO ] 04-11-2023 19:46:22 [main] Log - Executed SignOut test is passed
+[INFO ] 04-11-2023 19:46:22 [main] Log - ----Test Suite FirstTest is ending----
+
+
+
+[INFO ] 04-11-2023 19:46:22 [main] Log - ----Test Suite SecondTest is starting----
+[INFO ] 04-11-2023 19:46:22 [main] Log - ----Running Test Method verifySignInSuccess----
+[INFO ] 04-11-2023 19:46:22 [main] Log - Setup Chrome Browser
+[INFO ] 04-11-2023 19:46:24 [main] Log - Home Page
+[INFO ] 04-11-2023 19:46:27 [main] Log - Sign In Page
+[INFO ] 04-11-2023 19:46:33 [main] Log - Executed verifySignInSuccess test is passed
+[INFO ] 04-11-2023 19:46:33 [main] Log - ----Running Test Method verifySearchProductSuccess----
+[INFO ] 04-11-2023 19:46:35 [main] Log - Product Page
+[INFO ] 04-11-2023 19:46:36 [main] Log - Search result: 2 Items
+[INFO ] 04-11-2023 19:46:36 [main] Log - Executed verifySearchProductSuccess test is passed
+[INFO ] 04-11-2023 19:46:36 [main] Log - ----Running Test Method verifyViewProductDetails----
+[INFO ] 04-11-2023 19:46:45 [main] Log - Product name: Maybelline Superstay Active Wear Liquid Foundation (30mL) - 30HR Coverage, Long lasting, Waterproof
+[INFO ] 04-11-2023 19:46:46 [main] Log - View Product Details Page
+[INFO ] 04-11-2023 19:46:50 [main] Log - Executed verifyViewProductDetails test is passed
+[INFO ] 04-11-2023 19:46:50 [main] Log - ----Running Test Method verifyIncreaseQuantityProduct----
+[INFO ] 04-11-2023 19:46:51 [main] Log - Quantity: 2
+[INFO ] 04-11-2023 19:46:51 [main] Log - Executed verifyIncreaseQuantityProduct test is passed
+[INFO ] 04-11-2023 19:46:51 [main] Log - ----Running Test Method verifyAddProductToCart2----
+[INFO ] 04-11-2023 19:46:55 [main] Log - Add product to cart success
+[INFO ] 04-11-2023 19:46:55 [main] Log - Executed verifyAddProductToCart2 test is passed
+[INFO ] 04-11-2023 19:46:55 [main] Log - ----Running Test Method verifyReduceQuantityProduct----
+[INFO ] 04-11-2023 19:46:56 [main] Log - Mini Cart Block
+[INFO ] 04-11-2023 19:47:05 [main] Log - Quantity of the product: 2
+[INFO ] 04-11-2023 19:47:13 [main] Log - Quantity of the product after reduction: 3
+[INFO ] 04-11-2023 19:47:15 [main] Log - Executed verifyReduceQuantityProduct test failed
+[INFO ] 04-11-2023 19:47:15 [main] Log - ----Running Test Method verifyCheckOutCart----
+[INFO ] 04-11-2023 19:47:19 [main] Log - Checkout Page
+[INFO ] 04-11-2023 19:47:19 [main] Log - Executed verifyCheckOutCart test is passed
+[INFO ] 04-11-2023 19:47:19 [main] Log - ----Running Test Method verifyApplyDiscountCode----
+[INFO ] 04-11-2023 19:47:25 [main] Log - Executed verifyApplyDiscountCode test is passed
+[INFO ] 04-11-2023 19:47:25 [main] Log - ----Running Test Method verifySelectPaypalPayment----
+[INFO ] 04-11-2023 19:47:32 [main] Log - Executed verifySelectPaypalPayment test is passed
+[INFO ] 04-11-2023 19:47:32 [main] Log - ----Running Test Method verifyOderByPaypalMethod----
+[INFO ] 04-11-2023 19:48:15 [main] Log - Executed verifyOderByPaypalMethod test is passed
+[INFO ] 04-11-2023 19:48:15 [main] Log - ----Running Test Method verifyReviewOrder----
+[INFO ] 04-11-2023 19:48:18 [main] Log - Order Number: 000000045
+[INFO ] 04-11-2023 19:48:26 [main] Log - Executed verifyReviewOrder test is passed
+[INFO ] 04-11-2023 19:48:26 [main] Log - ----Running Test Method SignOut----
+[INFO ] 04-11-2023 19:48:28 [main] Log - Sign Out Account...
+[INFO ] 04-11-2023 19:48:42 [main] Log - Executed SignOut test is passed
+[INFO ] 04-11-2023 19:48:42 [main] Log - ----Test Suite SecondTest is ending----
+
+
+
