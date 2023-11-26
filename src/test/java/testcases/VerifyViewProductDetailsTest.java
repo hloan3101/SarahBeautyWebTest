@@ -5,8 +5,8 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.ProductPage;
 import pages.ViewProductDetailsPage;
-import ultilites.Log;
-import ultilites.TestListener;
+import ultilities.Log;
+import ultilities.TestListener;
 
 @Listeners(TestListener.class)
 public class VerifyViewProductDetailsTest extends BaseSetup {

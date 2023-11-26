@@ -5,7 +5,7 @@ import commons.MessageHelper;
 import commons.ValidateHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import ultilites.Log;
+import ultilities.Log;
 
 public class ViewProductDetailsPage extends BaseSetup {
     ValidateHelper validateHelper;
@@ -42,7 +42,6 @@ public class ViewProductDetailsPage extends BaseSetup {
     }
 
     public String increaseQualityProduct () throws InterruptedException {
-     //   ((JavascriptExecutor) driver).executeScript("scroll(0,-900)");
         Thread.sleep(1000);
         validateHelper.clickElement(increaseQuatityProductBtn);
         return getQuantity();
@@ -57,8 +56,12 @@ public class ViewProductDetailsPage extends BaseSetup {
     public void addProductToCart () throws InterruptedException {
         Thread.sleep(2000);
         validateHelper.clickElement(addToCartButton);
+        Thread.sleep(1000);
+        ((JavascriptExecutor) driver).executeScript("scroll(0,-900)");
+
     }
-    public boolean verifyAddProductToCart (String productName){
+    public boolean verifyAddProductToCart (String productName) throws InterruptedException {
+        validateHelper.waitForPageLoaded();
         if (validateHelper.getText(addToCartMessage).equals("You added " +productName + " to your shopping cart.")){
             Log.info(MessageHelper.addToCartSuccessMassage);
             return true;

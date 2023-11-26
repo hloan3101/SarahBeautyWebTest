@@ -8,7 +8,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SignInPage;
-import ultilites.TestListener;
+import ultilities.TestListener;
 
 @Listeners(TestListener.class)
 public class VerifySignInTest extends BaseSetup {
@@ -36,8 +36,8 @@ public class VerifySignInTest extends BaseSetup {
         setUp();
         HomePage homePage = new HomePage();
         signInPage = homePage.setupSignInPage();
-       signInPage.signIn("hloan975@gmail.com", "123456aA");
-    //    signInPage.signIn("jackcris123@gmail.com", "123456aA");
+    //   signInPage.signIn("hloan975@gmail.com", "123456aA");
+        signInPage.signIn("johndoe123@gmail.com", "123456aA");
         Assert.assertTrue(signInPage.verifySignIn());
     }
 

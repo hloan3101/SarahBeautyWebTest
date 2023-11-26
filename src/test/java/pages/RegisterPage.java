@@ -5,10 +5,9 @@ import commons.MessageHelper;
 import commons.ValidateHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import ultilites.Log;
+import ultilities.Log;
 
 public class RegisterPage extends BaseSetup {
-
     private ValidateHelper validateHelper;
     private By firstNameInput = By.id("firstname");
     private By lastNameInput = By.id("lastname");

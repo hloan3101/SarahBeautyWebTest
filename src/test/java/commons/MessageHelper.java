@@ -7,15 +7,18 @@ public class MessageHelper {
     public static final String signInPageMessage = "Sign In Page";
     public static final String viewProductDetailPageMessage = "View Product Details Page";
     public static final String productPageMessage = "Product Page";
+    public static final String accountPageMessage = "Account Page";
     public static final String miniCartBlockMessage = "Mini Cart Block";
     public static final String checkoutPageMessage = "Checkout Page";
     public static final String setupRegisterAccountPageMessage = "Register Account Page";
     public static final String signOutAccountMessage = "Sign Out Account...";
+    public static final String createAddressMessage = "Create Address...";
     public static final String errTimeOutMessage = "Timeout waiting for Page Load Request to complete.";
     public static final String errOpenFileExcelMessage = "File doesn't exist, so created!";
     public static final String  errMessageSignIn = "Sign In failed";
     public static final String errRegisterMessage = "Register failed";
     public static final String errSignOutMessage = "Sign out failed";
+    public static final String errReviewOrderMessage = "Review Order failed";
     public static final String errCustomerMenuMessage = "Customer menu button is not displayed";
     public static final String errSignOutLinkMessage = "Customer menu is not display";
 
@@ -34,4 +37,9 @@ public class MessageHelper {
 //            "French Roses for a Bright Glow 100ml";
     public static final String productName = "Maybelline Superstay Active Wear Liquid Foundation (30mL) " +
             "- 30HR Coverage, Long lasting, Waterproof";
+
+    public static final String savedAddressMessage = "You saved the address.";
+    public static final String checkoutSuccessMessage = "Thank you for your purchase!";
+    public static final String emailPayPalAccount = "sb-2oqsm27403046@personal.example.com";
+    public static final String passwordPayPalAccount = "vD,/'5Vw";
 }
